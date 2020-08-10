@@ -146,10 +146,10 @@ function startAnimating(fps) {
         });
         
         canvas.addEventListener('touchstart', function(e) {
-            getTouchPosition(canvas,e);
             event.preventDefault();
             sun_touch = true;
             sun_idle = false;
+            
         }, false);
             
         canvas.addEventListener('touchend', function(e) {
