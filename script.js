@@ -84,7 +84,7 @@ function draw() {
         g=f*2*Math.PI/128;
         x.rotate(g);
         for(i=60; i--;) {
-            x.fillRect((2*S(g+2*t)+ moire_fade+ 1*S(2*t))*(60/2-i+(4*t/(2*Math.PI))%1),125,10,2e3); 
+            x.fillRect((2*S(g+2*t)+ moire_fade+ 1*S(2*t))*(60/2-i+(4*t/(2*Math.PI))%1),100,10,2e3); 
         }
     }
      
