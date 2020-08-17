@@ -150,12 +150,12 @@ function startAnimating(fps) {
             sun_touch = true;
             sun_idle = false;
             
-        }, {passive: true});
+        }, false);
             
         canvas.addEventListener('touchend', function(e) {
             sun_touch = false;
             sun_idle = true;
             idle_time = 0
-        }, {passive: true});         
+        }, false);         
     }   
  }
